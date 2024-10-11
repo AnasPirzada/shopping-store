@@ -4,42 +4,45 @@ const Categories = () => {
   const data = [
     {
       cateImg: "./images/category/fruits.png",
-      cateName: "Fruits",
-    },
-    {
-      cateImg: "./images/category/vegetables.png",
-      cateName: "Vegetables",
-    },
-    {
-      cateImg: "./images/category/meat.png",
-      cateName: "Meat",
-    },
-    {
-      cateImg: "./images/category/dairy.png",
-      cateName: "Dairy",
-    },
-    {
-      cateImg: "./images/category/bakery.png",
-      cateName: "Bakery",
-    },
-    {
-      cateImg: "./images/category/seafood.png",
-      cateName: "Seafood",
+      cateName: "grocery",
     },
     {
       cateImg: "./images/category/beverages.png",
-      cateName: "Beverages",
+      cateName: "gourmet foods",
     },
-    {
-      cateImg: "./images/category/snacks.png",
-      cateName: "Snacks",
-    },
-    {
-      cateImg: "./images/category/spices.png",
-      cateName: "Spices & Seasonings",
-    },
-  
-  ]
+    // {
+    //   cateImg: "./images/category/vegetables.png",
+    //   cateName: "Vegetables",
+    // },
+    // {
+    //   cateImg: "./images/category/meat.png",
+    //   cateName: "Meat",
+    // },
+    // {
+    //   cateImg: "./images/category/dairy.png",
+    //   cateName: "Dairy",
+    // },
+    // {
+    //   cateImg: "./images/category/bakery.png",
+    //   cateName: "Bakery",
+    // },
+    // {
+    //   cateImg: "./images/category/seafood.png",
+    //   cateName: "Seafood",
+    // },
+    // {
+    //   cateImg: "./images/category/beverages.png",
+    //   cateName: "Beverages",
+    // },
+    // {
+    //   cateImg: "./images/category/snacks.png",
+    //   cateName: "Snacks",
+    // },
+    // {
+    //   cateImg: "./images/category/spices.png",
+    //   cateName: "Spices & Seasonings",
+    // },
+  ];
 
   return (
     <>

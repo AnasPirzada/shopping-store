@@ -19,12 +19,12 @@ const Dcard = () => {
         {Ddata.map((value, index) => {
           return (
             <>
-              <div className='box product' key={index}>
-                <div className='img' style={{height:"150px"}}>
+              <div className='box product' key={index} style={{overflow:"hidden"}}>
+                <div className='img' style={{height:"150px", overflow:"hidden"}}>
                   <img src={value.cover} alt='' width='100%' height={150} />
                 </div>
                 <h4>{value.name}</h4>
-                <span>$ {value.price}</span>
+                <span>$ {value.price}.00</span>
               </div>
             </>
           )

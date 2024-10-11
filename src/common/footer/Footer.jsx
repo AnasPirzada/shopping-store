@@ -44,7 +44,7 @@ const Footer = () => {
           <div className='box'>
             <h2>Contact Us</h2>
             <ul>
-              <li>3648 N FREEWAY BLVD STE 230  SACRAMENTO, CA 95834s </li>
+              <li>3648 N FREEWAY BLVD STE 230  SACRAMENTO, CA 95834 </li>
               <li>Email: sales@orininternational.com</li>
               <li>Phone: +1 (916) 873-0355</li>
             </ul>

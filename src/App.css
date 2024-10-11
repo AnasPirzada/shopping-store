@@ -72,6 +72,7 @@ button {
 /*---------category----------*/
 .contentWidth {
   width: 77%;
+
 }
 .category {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
@@ -81,6 +82,7 @@ button {
   padding: 15px 0;
   border-radius: 5px;
   margin-top: 5px;
+  
 }
 .category img {
   width: 30px;

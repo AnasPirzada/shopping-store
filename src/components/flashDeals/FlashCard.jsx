@@ -43,40 +43,48 @@ const FlashCard = ({ productItems, addToCart }) => {
       <Slider {...settings}>
         {productItems.map((productItems) => {
           return (
-            <div className='box'>
-              <div className='product mtop'>
-                <div className='img'>
-                  <span className='discount'>{productItems.discount}% Off</span>
-                  <img src={productItems.cover} alt=''
-                  style={{height:'250px'}}
+            <div className="box">
+              <div
+                className="product mtop"
+               
+              >
+                <div className="img" style={{ overflow: "hidden" }}>
+                  <span className="discount">{productItems.discount}% Off</span>
+                  <img
+                    src={productItems.cover}
+                    alt="product-img"
+                    style={{
+                      height: "240px",
+                      overflow: "hidden",
+                    }}
                   />
-                  <div className='product-like'>
+                  <div className="product-like">
                     <label>{count}</label> <br />
-                    <i className='fa-regular fa-heart' onClick={increment}></i>
+                    <i className="fa-regular fa-heart" onClick={increment}></i>
                   </div>
                 </div>
-                <div className='product-details'>
+                <div className="product-details">
                   <h3>{productItems.name}</h3>
-                  <div className='rate'>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
+                  <div className="rate">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
-                  <div className='price'>
+                  <div className="price">
                     <h4>${productItems.price}.00 </h4>
                     {/* step : 3  
                      if hami le button ma click garryo bahne 
                     */}
                     <button onClick={() => addToCart(productItems)}>
-                      <i className='fa fa-plus'></i>
+                      <i className="fa fa-plus"></i>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </Slider>
     </>
